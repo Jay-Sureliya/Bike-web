@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Riding Gloves",
+        "price": 1499,
+        "image": "/a1.jpg",
+        "description": "High-grip, breathable gloves for long rides.",
+        "category": "Gloves"
+    },
+    {
+        "id": 2,
+        "name": "Bike Helmet",
+        "price": 3299,
+        "image": "/a2.jpg",
+        "description": "DOT-certified helmet with ventilation and comfort fit.",
+        "category": "Helmet"
+    },
+    {
+        "id": 3,
+        "name": "LED Headlight",
+        "price": 999,
+        "image": "/a3.jpg",
+        "description": "Powerful LED headlight for safe night riding.",
+        "category": "Lights"
+    },
+    {
+        "id": 4,
+        "name": "Phone Mount",
+        "price": 799,
+        "image": "/a4.jpg",
+        "description": "Durable and adjustable mount for phones of all sizes.",
+        "category": "Mounts"
+    },
+    {
+        "id": 5,
+        "name": "Chain Cleaner Kit",
+        "price": 549,
+        "image": "/a5.jpg",
+        "description": "Complete kit to clean and maintain your bike chain.",
+        "category": "Maintenance"
+    },
+    {
+        "id": 6,
+        "name": "Bike Cover",
+        "price": 899,
+        "image": "/a6.jpg",
+        "description": "Waterproof and dustproof cover for all weather protection.",
+        "category": "Covers"
+    },
+    {
+        "id": 7,
+        "name": "Portable Air Pump",
+        "price": 1299,
+        "image": "/a7.jpg",
+        "description": "Compact air pump compatible with all bike types.",
+        "category": "Maintenance"
+    },
+    {
+        "id": 8,
+        "name": "Motorbike Saddlebags",
+        "price": 2399,
+        "image": "/a8.jpg",
+        "description": "Spacious, weatherproof saddlebags for extra storage.",
+        "category": "Storage"
+    },
+    {
+        "id": 9,
+        "name": "Anti-theft Disc Lock",
+        "price": 699,
+        "image": "/a9.jpg",
+        "description": "Secure your bike with this heavy-duty disc lock.",
+        "category": "Security"
+    }
+]

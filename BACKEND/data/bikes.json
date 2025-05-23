@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Royal Enfield Classic",
+    "image": "/bike1.jpg",
+    "price": 190000,
+    "color": "Black",
+    "rating": 4.7,
+    "category": "Cruiser"
+  },
+  {
+    "name": "Yamaha R15",
+    "image": "/bike2.jpg",
+    "price": 160000,
+    "color": "Blue",
+    "rating": 4.5,
+    "category": "Sport"
+  },
+  {
+    "name": "Bajaj Pulsar 150",
+    "image": "/bike3.jpg",
+    "price": 120000,
+    "color": "Red",
+    "rating": 4.3,
+    "category": "Road"
+  },
+  {
+    "name": "TVS Apache RTR 160",
+    "image": "/bike4.jpg",
+    "price": 115000,
+    "color": "White",
+    "rating": 4.4,
+    "category": "Sport"
+  },
+  {
+    "name": "KTM Duke 200",
+    "image": "/bike5.jpg",
+    "price": 210000,
+    "color": "Orange",
+    "rating": 4.6,
+    "category": "Sport"
+  },
+  {
+    "name": "Honda Hornet 2.0",
+    "image": "/bike6.jpg",
+    "price": 130000,
+    "color": "Grey",
+    "rating": 4.2,
+    "category": "Road"
+  },
+  {
+    "name": "Suzuki Gixxer SF",
+    "image": "/bike7.jpg",
+    "price": 140000,
+    "color": "Blue",
+    "rating": 4.3,
+    "category": "Road"
+  },
+  {
+    "name": "Hero Xtreme 160R",
+    "image": "/bike8.jpg",
+    "price": 125000,
+    "color": "Green",
+    "rating": 4.1,
+    "category": "Road"
+  },
+  {
+    "name": "Yamaha MT-15",
+    "image": "/bike9.jpg",
+    "price": 165000,
+    "color": "Cyan",
+    "rating": 4.6,
+    "category": "Sport"
+  },
+  {
+    "name": "Royal Enfield Meteor 350",
+    "image": "/bike10.jpg",
+    "price": 205000,
+    "color": "Red",
+    "rating": 4.5,
+    "category": "Cruiser"
+  },
+  {
+    "name": "Honda CB350RS",
+    "image": "/bike11.jpg",
+    "price": 210000,
+    "color": "Yellow",
+    "rating": 4.4,
+    "category": "Cruiser"
+  },
+  {
+    "name": "Jawa 42",
+    "image": "/bike12.jpg",
+    "price": 198000,
+    "color": "Maroon",
+    "rating": 4.3,
+    "category": "Cruiser"
+  }
+]

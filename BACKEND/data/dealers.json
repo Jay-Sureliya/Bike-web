@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Speed Wheels Dealer",
+    "location": "New Delhi, India",
+    "phone": "+91 9876543210",
+    "email": "dealer1@bikeshop.com",
+    "mapUrl": "https://www.google.com/maps?q=New+Delhi+India&output=embed"
+  },
+  {
+    "id": 2,
+    "name": "Urban Bikes Hub",
+    "location": "Mumbai, India",
+    "phone": "+91 9123456789",
+    "email": "dealer2@bikeshop.com",
+    "mapUrl": "https://www.google.com/maps?q=Mumbai+India&output=embed"
+  },
+  {
+    "id": 3,
+    "name": "Mountain Ride Store",
+    "location": "Bangalore, India",
+    "phone": "+91 9988776655",
+    "email": "dealer3@bikeshop.com",
+    "mapUrl": "https://www.google.com/maps?q=Bangalore+India&output=embed"
+  },
+  {
+    "id": 4,
+    "name": "Elite Bike Point",
+    "location": "Chennai, India",
+    "phone": "+91 9012345678",
+    "email": "dealer4@bikeshop.com",
+    "mapUrl": "https://www.google.com/maps?q=Chennai+India&output=embed"
+  },
+  {
+    "id": 5,
+    "name": "RideOn Motors",
+    "location": "Hyderabad, India",
+    "phone": "+91 9098765432",
+    "email": "dealer5@bikeshop.com",
+    "mapUrl": "https://www.google.com/maps?q=Hyderabad+India&output=embed"
+  },
+  {
+    "id": 6,
+    "name": "The Bike Garage",
+    "location": "Ahmedabad, India",
+    "phone": "+91 9988123456",
+    "email": "dealer6@bikeshop.com",
+    "mapUrl": "https://www.google.com/maps?q=Ahmedabad+India&output=embed"
+  }
+]

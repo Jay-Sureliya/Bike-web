@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Bajaj",
+        "image": "/bajaj.png"
+    },
+    {
+        "name": "KTM",
+        "image": "/ktm.png"
+    },
+    {
+        "name": "Honda",
+        "image": "/honda.png"
+    },
+    {
+        "name": "TVS",
+        "image": "/tvs.png"
+    },
+    {
+        "name": "Suzuki",
+        "image": "/suzuki.png"
+    },
+    {
+        "name": "Hero",
+        "image": "/hero.png"
+    },
+    {
+        "name": "Yamaha",
+        "image": "/yamaha.png"
+    },
+    {
+        "name": "Ducati",
+        "image": "/ducati.png"
+    },
+    {
+        "name": "Ninja",
+        "image": "/ninja.png"
+    },
+    {
+        "name": "Trek",
+        "image": "/trek.png"
+    },
+    {
+        "name": "Can",
+        "image": "/can.png"
+    }
+]

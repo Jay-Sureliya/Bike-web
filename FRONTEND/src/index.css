@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+
+body, html {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* style.css or inside global Tailwind if needed */
+/* .slick-dots li button:before {
+  font-size: 10px;
+  color: #a0aec0; 
+}
+.slick-dots li.slick-active button:before {
+  color: #f87171; 
+} */
+
+/* Active dot scaling */
+.slick-dots li.slick-active div {
+  background-color: #1f2937; /* Tailwind gray-800 */
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+}
+
+/* Ensure dots container is centered */
+.slick-dots {
+  margin: 0;
+  padding: 0;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+}
+
+.slick-dots li.slick-active div {
+  background-color: #1f2937; /* Tailwind gray-800 */
+  width: 8px;
+  height: 8px;
+}
+
+
+
