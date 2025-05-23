@@ -99,7 +99,7 @@ const Home = () => {
                             <div key={index}>
                                 <div className="bg-gray-100 rounded-lg shadow hover:shadow-md transition overflow-hidden">
                                     <img
-                                        src={bike.image}
+                                       src={`${import.meta.env.BASE_URL}${bike.image}`}
                                         alt={bike.name}
                                         className="w-full h-52 md:h-56 object-cover"
                                     />
@@ -220,7 +220,7 @@ const Home = () => {
                  shadow-md hover:shadow-2xl transition duration-300 transform hover:scale-105 cursor-pointer"
                         >
                             <img
-                                src={brand.image}
+                                src={`${import.meta.env.BASE_URL}${brand.image}`}
                                 alt={brand.name}
                                 className="w-20 h-20 object-contain rounded-md"
                             />
