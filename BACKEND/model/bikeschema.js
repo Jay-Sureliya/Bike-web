@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/bikeDB');
+mongoose.connect(process.env.MONGO_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+});
+
 
 const bikeSchema = new mongoose.Schema({
     name: String,
