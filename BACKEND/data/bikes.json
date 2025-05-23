@@ -78,21 +78,5 @@
     "color": "Red",
     "rating": 4.5,
     "category": "Cruiser"
-  },
-  {
-    "name": "Honda CB350RS",
-    "image": "/bike11.jpg",
-    "price": 210000,
-    "color": "Yellow",
-    "rating": 4.4,
-    "category": "Cruiser"
-  },
-  {
-    "name": "Jawa 42",
-    "image": "/bike12.jpg",
-    "price": 198000,
-    "color": "Maroon",
-    "rating": 4.3,
-    "category": "Cruiser"
   }
 ]
