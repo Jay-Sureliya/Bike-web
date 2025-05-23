@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
@@ -12,6 +13,7 @@ const bcrypt = require("bcryptjs");
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
+
 
 const app = express();
 const PORT = 3000;
@@ -47,7 +49,7 @@ app.get('/api/bikes', async (req, res) => {
 // Load data from bikes.json into DB
 app.get('/api/import-bikes', async (req, res) => {
   try {
-    const data = JSON.parse(fs.readFileSync('./bikes.json', 'utf-8'));
+    const data = JSON.parse(fs.readFileSync('./data/bikes.json', 'utf-8'));
     await Bike.insertMany(data);
     res.json({ message: 'Bikes imported successfully' });
   } catch (err) {
