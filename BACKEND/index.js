@@ -17,7 +17,7 @@ const MongoStore = require('connect-mongo');
 
 
 const app = express();
-const PORT = "https://bike-web.onrender.com";
+const PORT = 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
