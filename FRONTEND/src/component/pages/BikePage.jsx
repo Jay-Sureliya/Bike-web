@@ -71,7 +71,7 @@ const BikePage = () => {
     }, []);
 
     useEffect(() => {
-        fetch("http://localhost:3000/api/bikes")
+        fetch("https://bike-web.onrender.com/api/bikes")
             .then((res) => res.json())
             .then((data) => setBikes(data))
             .catch((err) => console.error("Error fetching bikes:", err));

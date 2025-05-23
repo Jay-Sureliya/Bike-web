@@ -28,13 +28,13 @@ const Home = () => {
     };
 
     useEffect(() => {
-        axios.get('https://bike-webapp.onrender.com/api/bikes')
+        axios.get('https://bike-web.onrender.com/api/bikes')
             .then(res => setBikes(res.data))
             .catch(err => console.error(err));
     }, []);
 
     useEffect(() => {
-        axios.get('https://bike-webapp.onrender.com/api/logo')
+        axios.get('https://bike-web.onrender.com/api/logo')
             .then(res => setLogo(res.data))
             .catch(err => console.error(err));
     }, []);

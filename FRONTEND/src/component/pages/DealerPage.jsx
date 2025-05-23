@@ -18,7 +18,7 @@ function DealerPage() {
   useEffect(() => {
     async function fetchDealers() {
       try {
-        const response = await fetch("http://localhost:3000/api/dealers");
+        const response = await fetch("https://bike-web.onrender.com/api/dealers");
         if (!response.ok) {
           throw new Error("Failed to fetch dealers");
         }
@@ -81,7 +81,7 @@ function DealerPage() {
     setSendStatus(null);
 
     try {
-      const response = await fetch("http://localhost:3000/api/messages", {
+      const response = await fetch("https://bike-web.onrender.com/api/messages", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

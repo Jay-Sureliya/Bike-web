@@ -37,7 +37,7 @@ const AuthPage = () => {
       if (isLoggedIn && userEmail) return;
 
       try {
-        const res = await axios.get("http://localhost:3000/me", { withCredentials: true });
+        const res = await axios.get("https://bike-web.onrender.com/me", { withCredentials: true });
         if (res.data.loggedIn) {
           setIsLoggedIn(true);
           const email = res.data.user.email || res.data.user.username || null;
@@ -68,7 +68,7 @@ const AuthPage = () => {
     e.preventDefault();
     try {
       await axios.post(
-        "http://localhost:3000/register",
+        "https://bike-web.onrender.com/register",
         { name, email, password },
         { withCredentials: true }
       );
@@ -86,7 +86,7 @@ const AuthPage = () => {
     e.preventDefault();
     try {
       await axios.post(
-        "http://localhost:3000/login",
+        "https://bike-web.onrender.com/login",
         { email, password },
         { withCredentials: true }
       );
@@ -105,7 +105,7 @@ const AuthPage = () => {
 
   const handleLogout = async () => {
     try {
-      await axios.post("http://localhost:3000/logout", {}, { withCredentials: true });
+      await axios.post("https://bike-web.onrender.com/logout", {}, { withCredentials: true });
       toast.info("Logged out successfully!");
       setIsLoggedIn(false);
       setIsLogin(true);
