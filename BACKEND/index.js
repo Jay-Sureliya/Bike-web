@@ -13,6 +13,7 @@ const bcrypt = require("bcryptjs");
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
+const MongoStore = require('connect-mongo');
 
 
 const app = express();
@@ -26,15 +27,23 @@ app.use(cors({
   credentials: true, // allow cookies
 }));
 
-app.use(
-  session({
-    secret: "your-secret",
-    resave: false,
-    saveUninitialized: false,
-    cookie: { secure: false, httpOnly: true, sameSite: "lax", maxAge: 24 * 60 * 60 * 1000 }, // 24 hours
-  })
-);
 
+app.use(session({
+  secret: "your-secret",
+  resave: false,
+  saveUninitialized: false,
+  store: MongoStore.create({
+    mongoUrl: process.env.MONGODB_URI,  // your MongoDB connection string
+    collectionName: 'sessions',
+    ttl: 24 * 60 * 60, // session expiry in seconds (here 1 day)
+  }),
+  cookie: {
+    secure: false,      // set to true if you use HTTPS
+    httpOnly: true,
+    sameSite: 'lax',
+    maxAge: 24 * 60 * 60 * 1000, // 1 day
+  }
+}));
 
 // GET: All bikes
 app.get('/api/bikes', async (req, res) => {
