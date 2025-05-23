@@ -239,7 +239,7 @@ function AccessoriesPage() {
 function AccessoryCard({ item, onView, onAddToCart }) {
   return (
     <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition overflow-hidden">
-      <img src={item.image} alt={item.name} className="w-full h-52 object-cover rounded-t-lg" />
+      <img  src={item.image.startsWith("/") ? item.image : `/${item.image}`} alt={item.name} className="w-full h-52 object-cover rounded-t-lg" />
       <div className="p-5 space-y-3">
         <div className="flex justify-between items-center">
           <h2 className="text-xl font-semibold text-gray-800 truncate">{item.name}</h2>
