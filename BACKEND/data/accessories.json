@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Riding Gloves",
         "price": 1499,
-        "image": "/a1.jpg",
+        "image": "https://m.media-amazon.com/images/I/81z0hNPI8aL._SY450_.jpg",
         "description": "High-grip, breathable gloves for long rides.",
         "category": "Gloves"
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "name": "Bike Helmet",
         "price": 3299,
-        "image": "/a2.jpg",
+        "image": "https://mimatumoto.com/web/image/product.image/21846/image_1024/CASCO%20INTEGRAL%20AIROH%20COMMANDER%202%20FULL%20CARBON%20GLOSS?unique=947ccff",
         "description": "DOT-certified helmet with ventilation and comfort fit.",
         "category": "Helmet"
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "name": "LED Headlight",
         "price": 999,
-        "image": "/a3.jpg",
+        "image": "https://rukminim2.flixcart.com/image/416/416/kmwcuq80/vehicle-hid-kit/g/i/l/led-headlight-bulb-with-cooling-fan-head-lamp-conversion-kit-original-imagfp62jhfgjvbu.jpeg?q=70&crop=false",
         "description": "Powerful LED headlight for safe night riding.",
         "category": "Lights"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "name": "Phone Mount",
         "price": 799,
-        "image": "/a4.jpg",
+        "image": "https://www.portronics.com/cdn/shop/files/Mobike41500X15001_1440x.jpg",
         "description": "Durable and adjustable mount for phones of all sizes.",
         "category": "Mounts"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "name": "Chain Cleaner Kit",
         "price": 549,
-        "image": "/a5.jpg",
+        "image": "https://m.media-amazon.com/images/I/71e0+4ciq0L._SX569_.jpg",
         "description": "Complete kit to clean and maintain your bike chain.",
         "category": "Maintenance"
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "name": "Bike Cover",
         "price": 899,
-        "image": "/a6.jpg",
+        "image": "https://www.highnoteperformance.com/cdn/shop/products/Bike_Cover_1_2c24a762-6527-4aa6-ac95-b8381e9d4d92.jpg?v=1582956649&width=600",
         "description": "Waterproof and dustproof cover for all weather protection.",
         "category": "Covers"
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "name": "Portable Air Pump",
         "price": 1299,
-        "image": "/a7.jpg",
+        "image": "https://m.media-amazon.com/images/I/71OymFavfPL._SX569_.jpg",
         "description": "Compact air pump compatible with all bike types.",
         "category": "Maintenance"
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "name": "Motorbike Saddlebags",
         "price": 2399,
-        "image": "/a8.jpg",
+        "image": "https://motoearth.in/cdn/shop/files/06_1800x1800_7a61a6f0-1eac-4c44-9d57-dfceb7879322.webp?v=1713940551&width=1400",
         "description": "Spacious, weatherproof saddlebags for extra storage.",
         "category": "Storage"
     },
@@ -67,7 +67,7 @@
         "id": 9,
         "name": "Anti-theft Disc Lock",
         "price": 699,
-        "image": "/a9.jpg",
+        "image": "https://m.media-amazon.com/images/I/51d2XS-iIiL._SY450_.jpg",
         "description": "Secure your bike with this heavy-duty disc lock.",
         "category": "Security"
     }

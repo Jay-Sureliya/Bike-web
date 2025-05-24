@@ -1,46 +1,46 @@
 [
     {
         "name": "Bajaj",
-        "image": "/bajaj.png"
+        "image": "https://images.seeklogo.com/logo-png/32/1/bajaj-logo-png_seeklogo-320908.png"
     },
     {
         "name": "KTM",
-        "image": "/ktm.png"
+        "image": "https://banner2.cleanpng.com/20180626/qqi/kisspng-ktm-x-bow-car-yamaha-motor-company-ktm-1290-super-5b32b73abd7a85.8023636915300503627761.jpg"
     },
     {
         "name": "Honda",
-        "image": "/honda.png"
+        "image": "https://www.citypng.com/public/uploads/preview/honda-car-emblem-logo-png-701751694772075os3qi4x57u.png"
     },
     {
         "name": "TVS",
-        "image": "/tvs.png"
+        "image": "https://upload.wikimedia.org/wikipedia/ta/7/79/TVS_Motor_Company_Logo.png"
     },
     {
         "name": "Suzuki",
-        "image": "/suzuki.png"
+        "image": "https://www.citypng.com/public/uploads/preview/hd-suzuki-logo-transparent-background-701751694773172hlym9vlvbt.png"
     },
     {
         "name": "Hero",
-        "image": "/hero.png"
+        "image": "https://www.pngfind.com/pngs/m/20-208814_hero-bike-logo-png-hero-motocorp-transparent-png.png"
     },
     {
         "name": "Yamaha",
-        "image": "/yamaha.png"
+        "image": "https://www.citypng.com/public/uploads/preview/yamaha-black-logo-png-image-701751694774658yftuzaicev.png"
     },
     {
         "name": "Ducati",
-        "image": "/ducati.png"
+        "image": "https://banner2.cleanpng.com/20180719/igl/43e48e426cc1b114c4c9c3127c05dbff.webp"
     },
     {
         "name": "Ninja",
-        "image": "/ninja.png"
+        "image": "https://www.citypng.com/public/uploads/preview/green-ninja-kawasaki-logo-word-sign-png-701751694710848qkqpmf5ldt.png"
     },
     {
         "name": "Trek",
-        "image": "/trek.png"
+        "image": "https://banner2.cleanpng.com/20180804/qjc/1930be8a762dab441f015ef19c15cb5b.webp"
     },
     {
         "name": "Can",
-        "image": "/can.png"
+        "image": "https://www.shutterstock.com/shutterstock/photos/2472767875/display_1500/stock-vector-bike-cycle-logo-template-design-illustration-2472767875.jpg"
     }
 ]
