@@ -23,7 +23,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-  origin: "http://localhost:5173", // your React frontend origin
+   origin: ['http://localhost:5173', 'https://bikezone.onrender.com'], // your React frontend origin
   credentials: true, // allow cookies
 }));
 
