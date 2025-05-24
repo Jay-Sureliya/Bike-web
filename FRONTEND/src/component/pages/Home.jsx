@@ -220,7 +220,7 @@ const Home = () => {
                  shadow-md hover:shadow-2xl transition duration-300 transform hover:scale-105 cursor-pointer"
                         >
                             <img
-                                 src={brand.image.startsWith("/") ? brand.image : `/${brand.image}`}
+                                 src={brand.image}
                                 alt={brand.name}
                                 className="w-20 h-20 object-contain rounded-md"
                             />
