@@ -99,7 +99,7 @@ const Home = () => {
                             <div key={index}>
                                 <div className="bg-gray-100 rounded-lg shadow hover:shadow-md transition overflow-hidden">
                                     <img
-                                        src={bike.image}
+                                        src={bike.image.startsWith("/") ? bike.image : `/${bike.image}`}
                                         alt={bike.name}
                                         className="w-full h-52 md:h-56 object-cover"
                                     />
@@ -220,7 +220,7 @@ const Home = () => {
                  shadow-md hover:shadow-2xl transition duration-300 transform hover:scale-105 cursor-pointer"
                         >
                             <img
-                                src={brand.image}
+                                 src={brand.image.startsWith("/") ? brand.image : `/${brand.image}`}
                                 alt={brand.name}
                                 className="w-20 h-20 object-contain rounded-md"
                             />
