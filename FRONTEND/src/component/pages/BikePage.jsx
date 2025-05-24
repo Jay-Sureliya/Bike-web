@@ -255,7 +255,7 @@ const BikePage = () => {
 
 const BikeCard = ({ bike, handleAddToCart, handleViewDetails }) => (
     <div className="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
-        <img  src={bike.image.startsWith("/") ? bike.image : `/${bike.image}`} alt={bike.name} className="w-full h-52 object-cover rounded-t-lg" />
+        <img  src={bike.image} alt={bike.name} className="w-full h-52 object-cover rounded-t-lg" />
         <div className="p-5 space-y-4">
             <h2 className="text-xl font-semibold text-gray-900 truncate">{bike.name}</h2>
             <div className="flex justify-between text-gray-700">

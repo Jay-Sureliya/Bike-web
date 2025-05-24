@@ -99,7 +99,7 @@ const Home = () => {
                             <div key={index}>
                                 <div className="bg-gray-100 rounded-lg shadow hover:shadow-md transition overflow-hidden">
                                     <img
-                                        src={bike.image.startsWith("/") ? bike.image : `/${bike.image}`}
+                                        src={bike.image}
                                         alt={bike.name}
                                         className="w-full h-52 md:h-56 object-cover"
                                     />
